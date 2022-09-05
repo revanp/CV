@@ -20,7 +20,7 @@
     AOS.init({ duration: 1200, once: true, disable: "mobile" });
     var parallax = function () {
       $(window).stellar({
-        responsive: true,
+        // responsive: true,
       });
     };
     $(function () {
