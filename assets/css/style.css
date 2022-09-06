@@ -988,3 +988,10 @@ fieldset {
   background-color: #3f46f1;
   color: #fff;
 }
+
+.owl-carousel .item img{
+  width: 200px;
+}
+.section-padding{
+  padding:60px 0;
+}
