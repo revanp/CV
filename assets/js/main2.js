@@ -6,11 +6,16 @@
       $("#preloader").delay(500).fadeOut("slow");
       $(".owl-carousel").owlCarousel({
         loop:true,
+        slideTransition: 'linear',
+        autoplayTimeout: 2000,
+        autoplaySpeed: 2000,
+        autoplayHoverPause: false,
         margin:10,
+        responsiveClass:true,
         autoplay:true,
         responsive:{
           0:{
-            items:1
+            items:2
           },
           600:{
             items:3
