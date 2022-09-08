@@ -991,7 +991,12 @@ fieldset {
 
 .owl-carousel .item img{
   width: 100px;
+  margin: 0 auto;
 }
+.owl-carousel .item h3{
+  margin-top: 20px;
+}
+
 .section-padding{
   padding:60px 0;
 }
